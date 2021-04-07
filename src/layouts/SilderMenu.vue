@@ -1,18 +1,15 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div id="SilderMenu">
+    <span>silderMenu</span>
+    <router-view></router-view>
   </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "App",
+  name: "SilderMenu",
   components: {},
 });
 </script>
 
-<style lang="less">
-#app {
-  background-color: #f5f7fa;
-}
-</style>
+<style lang="less"></style>

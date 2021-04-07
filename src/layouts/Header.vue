@@ -1,18 +1,14 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div id="Header">
+    <span>toubu</span>
   </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "App",
+  name: "Header",
   components: {},
 });
 </script>
 
-<style lang="less">
-#app {
-  background-color: #f5f7fa;
-}
-</style>
+<style lang="less"></style>
